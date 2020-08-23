@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 10px;
+    display: flex;
+    height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    width: 50%;
+    max-width: 1200px;
+    height: 400px;
+    background-color: rgb(224, 209, 209);;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+label {
+    font-size: 2rem;
+}
+
+input {
+    font-size: 1.2rem;
+    margin-top: 1rem;
+    width: 50%;
+    height: 40px;
+}
+
+button{
+    margin-top: 1.5rem;
+    border: none;
+    background-color: rgb(161, 150, 150);
+    padding: 1.2rem 2rem;
+}
